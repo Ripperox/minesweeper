@@ -13,7 +13,8 @@ var board = [   [0,0,0,0,0,0,0,0,0,0,0,0],
                 [0,0,0,0,0,0,0,0,0,0,0,0]];
                 
 const mines = new Set();
-import { closest,renamer,recurse } from './functions.js';
+import { closest} from './functions.js';
+import { renamer,recurse} from './functions.js';
 var gameover = false;
  while(mines.size<20)
 {

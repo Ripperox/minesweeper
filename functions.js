@@ -1,4 +1,4 @@
-export function closest(tile)
+function closest(tile)
 {
     x=parseInt(tile.id[0]);
     y=parseInt(tile.id[2]);
@@ -15,7 +15,7 @@ export function closest(tile)
     }
     return ans;
 }
-export function recurse(tile)
+function recurse(tile)
 {
     x=parseInt(tile.id[0]);//7
     y=parseInt(tile.id[2]);//7
@@ -69,3 +69,5 @@ function renamer(tile,ans)
         return 
 
 }
+export default closest
+export {renamer,recurse}
