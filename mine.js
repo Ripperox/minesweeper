@@ -31,9 +31,12 @@ function thegameisover()
     console.log("you lost")
 }
 
+
 window.onload = function (){
     setBoard();
 }
+
+
 function setBoard()
 {
     for(let i =1;i<=10;i++)
@@ -48,6 +51,8 @@ function setBoard()
     }
     
 }
+
+
 function selectTile()
 {
     tileselected = this;
