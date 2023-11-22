@@ -55,17 +55,22 @@ function setBoard()
 
 function selectTile()
 {
-    tileselected = this;
-    if(board[tileselected.id[0]][tileselected.id[2]]==1)
-    {
-        console.log("hit")  
-        tileselected.classList.add("bomb");  
-        thegameisover();
+    console.log("Gameover value"+gameover)
+    if(gameover==true)
+    {   
+        console.log("Gameover value"+gameover)
+        tileselected = this;
+        if(board[tileselected.id[0]][tileselected.id[2]]==1)
+        { 
+            tileselected.classList.add("bomb");  
+            thegameisover();
+
+        }
+        else
+        {
+            console.log(closest(tileselected))
+            renamer(tileselected,closest(tileselected))
+        }
+        console.log(tileselected.id)
     }
-    else
-    {
-        console.log(closest(tileselected))
-        renamer(tileselected,closest(tileselected))
-    }
-    console.log(tileselected.id)
 }
