@@ -1,0 +1,90 @@
+h1{
+    text-align: center;
+    color: orange;
+}
+body{
+    background-color: black;
+}
+p{
+    color : green;
+}
+#minefield{
+    width : 498.5px;
+    height : 500px;
+    margin : 0 auto;
+    border : 5px;
+    display: flex;
+    flex-wrap : wrap;
+    border-color: blueviolet;
+    background-color: grey;
+}
+
+.tile{
+    width : 48.5px;
+    height : 48.5px;
+    border : 1px solid;
+    border-color: rgb(91, 63, 3);
+    font-size: 20px;
+    font-weight: thin;
+    display : flex;
+    justify-content: center;
+    flex-wrap: wrap;
+    text-align: center;
+    color : black;
+    align-items: center;
+    background-image: url(images/unopened_tile.png);
+    background-repeat: no-repeat;
+    background-size: 48.5px 48.5px;
+}
+.bomb{
+    background-image: url(images/bomb.png) ;
+    background-repeat: no-repeat;
+    background-size: 48.5px 48.5px;
+    background-color: grey;
+
+}
+.zero{
+    background-color: grey;
+    background-repeat: no-repeat;
+    background-image: none;
+}
+.one{
+    background-image: url(images/one.png);
+    background-repeat: no-repeat;
+    background-size: 48.5px 48.5px;
+}
+.two{
+    background-image: url(images/two.png);
+    background-repeat: no-repeat;
+    background-size: 48.5px 48.5px;
+}
+.three{
+    background-image: url(images/three.png);
+    background-repeat: no-repeat;
+    background-size: 48.5px 48.5px;
+}
+.four{
+    background-image: url(images/four.png);
+    background-repeat: no-repeat;
+    background-size: 48.5px 48.5px;
+}
+.five{
+    background-image: url(images/five.png);
+    background-repeat: no-repeat;
+    background-size: 48.5px 48.5px;
+}
+.six{
+    background-image: url(images/six.png);
+    background-repeat: no-repeat;
+    background-size: 48.5px 48.5px;
+}
+.seven{
+    background-image: url(images/seven.png);
+    background-repeat: no-repeat;
+    background-size: 48.5px 48.5px;
+}
+.eight{
+    background-image: url(images/eight.png);
+    background-repeat: no-repeat;
+    background-size: 48.5px 48.5px;
+}
