@@ -11,8 +11,8 @@ p{
     color : green;
 }
 #minefield{
-    width : 498.5px;
-    height : 500px;
+    width : 504px;
+    height : 504px;
     margin : 0 auto;
     border : 5px;
     display: flex;
@@ -22,8 +22,8 @@ p{
 }
 
 .tile{
-    width : 48.5px;
-    height : 48.5px;
+    width : 49px;
+    height : 49px;
     border : 1px solid;
     border-color: rgb(91, 63, 3);
     font-size: 20px;
