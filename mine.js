@@ -28,9 +28,19 @@ console.log(board)
 function thegameisover()
 {
     gameover = true;
-    console.log("you lost")
+    let ele= document.createElement("div")
+    ele.innerHTML="You hit a mine!"
+    ele.classList.add("msg");
+    document.getElementById("message").appendChild(ele)
+    let x= document.createElement("button")
+    x.innerHTML="RESTART"
+    x.classList.add("restart-button")
+    x.addEventListener("click",reload);
+    document.getElementById("restart").appendChild(x)
 }
-
+function reload(){
+    location.reload();
+}
 function closest(tile)
 {
     x=parseInt(tile.id[0]);

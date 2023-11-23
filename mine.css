@@ -1,6 +1,8 @@
 h1{
     text-align: center;
-    color: blue;
+    font-size: 40px;
+    font-family: "Creepster",sans-serif;
+    color: greenyellow;
 }
 body{
     background-color: black;
@@ -87,4 +89,28 @@ p{
     background-image: url(images/eight.png);
     background-repeat: no-repeat;
     background-size: 48.5px 48.5px;
+}
+#restart{
+    margin-top: 20px;
+    text-align: center;
+}
+button{
+    width: 70px;
+    height: 30px;
+    background-color : grey;
+}
+.msg{
+    color: red;
+    font-weight: bold ;
+    text-align: center;
+    font-size: 40px;
+    font-family: "Creepster",sans-serif;
+    padding: 15px;
+}
+.restart-button{
+    width: 100px;
+    font-family: "Creepster",sans-serif;
+    color: black;
+    background-color: rgb(157, 104, 104);
+    border-radius: 5px;
 }
